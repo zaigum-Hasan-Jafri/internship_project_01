@@ -1,0 +1,44 @@
+.max-width {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.center
+{
+    display: flex;justify-content: center;align-items: center;
+   ;
+}
+
+.link
+{
+    text-decoration: none;
+    color:black
+}
+.link:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+
+#root{
+    --header-box-shadow:rgb(28 28 28 / 8%) 0px 2px 8px;
+    --zomato-color:rgb(239, 79, 95);
+    --cart-color:rgb(20, 19, 19);
+    --gray:rgba(124, 118, 118, 0.511);
+    --tab-bg:#FCEEC0;
+    --bg-gray:rgba(255, 255, 255, 0.511);
+
+}
+.cur
+{
+    cursor: pointer;
+}
+
+.Login
+{
+    padding-left: 0%;
+    font-family: 'Mochiy Pop One', sans-serif;
+    text-decoration: none;
+    background-image: url(http://localhost:3000/static/media/signIn.62c4b6be91f313c21cb6.jpg);
+    background-size: cover;
+}

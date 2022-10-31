@@ -1,0 +1,40 @@
+
+.form-group {
+    margin: 5% auto;
+    /* border: solid red 2px; */
+    right: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center
+}
+
+.reg-form .display:hover,
+.log-form .display:hover {
+    outline: 2px solid palegreen;
+}
+.row-lg-12 {
+    font-size: 40px;
+    color: black;
+}
+
+.bi {
+    display: flex;
+    color: rgba(0, 0, 0, 0.786);
+    font-size: 2rem;
+    justify-content: flex-start;
+    /* border: solid green 2px; */
+}
+
+.Login {
+    /* margin-top: 10%; */
+    /* background-color: lightblue; */
+    padding-left: 0%;
+    font-family:  sans-serif;
+    text-decoration: none;
+    background-image: url();
+    background-size: cover;
+    display: flex;
+    overflow: hidden;
+    /* justify-content: center; */
+    /* align-items: center; */
+}

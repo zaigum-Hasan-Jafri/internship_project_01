@@ -1,0 +1,79 @@
+.search-item {
+    border: 1px solid lightseagreen;
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    color: rgba(35, 35, 34, 0.589);
+}
+
+.image {
+    flex: 1;
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+
+}
+
+.description {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+.title {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.982);
+}
+
+
+.detail {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rating span {
+    font-weight: 500;
+}
+
+.rating button {
+    background-color: rgb(0, 64, 128);
+    color: rgba(140, 219, 248, 0.814);
+    padding: 5px;
+
+}
+
+.detail-price {
+    font-size: 32px;
+    color: red;
+}
+
+.price {
+    border: none;
+    
+    font-size: 16px;
+}
+.proceed-btn
+{
+    border-radius: 45px;
+   background-color: teal;
+   font-size: 12px;
+
+}
+.proceed-btn:hover
+{
+    border-radius: 45px;
+    background-color: rgba(0, 98, 128, 0.808);
+
+}

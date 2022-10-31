@@ -1,0 +1,16 @@
+.upper-data h5 {
+    font-size: 18px;
+    color: rgb(19, 17, 17);
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+.upper-data span{
+    background-color: green;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 2px 2px;
+    width: 45px;
+}

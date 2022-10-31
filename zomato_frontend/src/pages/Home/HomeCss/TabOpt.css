@@ -1,0 +1,33 @@
+
+.main-tab-item /* option wrapper */
+{
+    height: 30px;width: 30px;
+}
+.tab-item
+{
+    margin-right: 20px;
+    padding: 12px -12px -24px -12px;
+    border: 2px solid gray;
+    width: 20vw;
+    height: 20px;
+    
+}
+.tab-img /* container-image */
+{
+
+    height: 28vh;
+    width: 28vw;
+
+}
+.tab-name
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 30px;
+    
+}
+.tab-image
+{
+    height: 28px;
+    width: 28px;
+}

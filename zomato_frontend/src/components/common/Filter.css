@@ -1,0 +1,20 @@
+.filters
+{
+    padding: 16px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.filter-icon
+{
+    padding: 8px;
+    display: flex;
+    background: whitesmoke;
+    color: #9C9C9C;
+    border: 1px solid #9c9c9c43;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+.filter-title
+{
+    margin-left: 4px;
+}

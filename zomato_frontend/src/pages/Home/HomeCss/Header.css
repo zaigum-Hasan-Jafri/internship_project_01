@@ -1,0 +1,99 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.zomato-logo {
+    height: 27px;
+    margin: 10px 12px 12px 0;
+    max-width: 110px;
+}
+
+.header-right {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.header-location-search-bar {
+    display: flex;
+    height: 54px;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: var(--header-box-shadow);
+    width: 70%;
+    margin-left: 15px;
+}
+
+.location-wrapper {
+    display: flex;
+    flex: 1;
+
+}
+
+.location-icon-name {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.header-input-bar {
+    height: 29px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 4px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.location-search-separator
+{
+    height: 28px;
+    border: 1px solid var(--gray);
+    display: flex; margin-top: 5px;
+}
+.header-search-bar{
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 18%;
+}
+.bi-search
+{
+   flex: 2;
+    font-size: 20px;
+    margin-right: 8px;
+    justify-content:start;
+    margin-left: 10px;
+}
+.search-input
+{
+    display: flex;
+    border: none;
+    width: 300px;
+    outline: none;
+    background-color: transparent;
+}
+
+.profile
+{
+    display: flex;
+    margin-right: 5%;
+    font-size: 16px;
+    justify-content: space-evenly
+    ;align-items: center;
+    cursor: pointer;
+}
+/* .bi-person-circle
+{
+    font-size: 30px;
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;align-items: center;
+} */

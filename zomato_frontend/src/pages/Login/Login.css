@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+/* Login-Css */
+
+.Login .title {
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-label {
+    color: rgb(0, 0, 0);
+
+}
+
+.icon {
+    position: relative;
+}
+
+.icon i {
+    position: absolute;
+    color: rgba(0, 0, 0, 0.786);
+    font-size: 2rem;
+    left: 100%;
+    top: 25px;
+    padding: 0px 5px;
+}
+
+.Login {
+  
+    padding-left: 0%;
+    font-family: 'Mochiy Pop One', sans-serif ;
+    text-decoration: none;
+    background-image: url("../../Assets/Basicform.jpg");
+    background-size: cover;
+    
+}
+
+.log-form .display,
+.reg-form .display {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    margin-left: 42%;
+}
+
+.form-section {
+    margin-top: 100px;
+    outline: none;
+    padding: 0 5rem;
+    color: rgb(252, 252, 252);
+    font-family: 'Nunito', sans-serif;
+    
+}
+
+.form-section i{
+    color: whitesmoke;
+}
+/* Registeration-Css */
+
+.form-group {
+    margin: 5% auto;
+    /* border: solid red 2px; */
+    right: 100px;
+    justify-content: center;
+    align-items: center;
+    justify-self: center
+}
+
+.reg-form .display:hover,
+.log-form .display:hover {
+    outline: 2px solid palegreen;
+}
+
+
+.bi {
+    display: flex;
+    color: rgba(0, 0, 0, 0.786);
+    font-size: 2rem;
+    justify-content: flex-start;
+    /* border: solid green 2px; */
+}
+
+/* BasicForm-Css */
+
+.container-basic .nav-brand i {
+    position: relative;
+    flex-wrap: wrap;
+    text-align: justify;
+    font-size: 5rem;
+    color: black;
+    margin: 0px 100%;
+    padding-top: 10px;
+    padding-left: 20px;
+
+}
+
+.container-basic {
+    display: flex;
+    position: relative;
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(http://localhost:3000/static/media/signIn.62c4b6be91f313c21cb6.jpg);
+    background-size: cover;
+}
+.container-basic .btn-section {
+    flex-wrap: wrap;
+    position: absolute;
+    top: 20%;
+    right: 0%;
+    text-decoration: none;
+}
+
+.btn-primary:hover,
+.btn-success:hover,
+.btn-info:hover {
+    background-color: rgba(9, 148, 229, 0.609);
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 44px;
+    box-shadow: none;
+    margin: auto 0px 10px 0px;
+    line-height: 30px;
+    width: 90px;
+
+}
+
+.container-basic .btn-section .bi {
+    padding-left: 30%;
+}
+.btn-section button
+{
+    border: none;
+    text-decoration: none;
+    background-color: transparent;
+}
